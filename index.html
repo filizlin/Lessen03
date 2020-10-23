@@ -6,7 +6,12 @@
   <title>Lessen03</title>
   <style media="screen">
     /* CSS comments*/
+  * {
+      border: 1px dashed yellow;
+    }
+
     body {
+      font-size: 16px;
       color: blue;
       background-color: cornflowerblue
     }
@@ -15,10 +20,30 @@
       color: DarkSeaGreen;
     }
 
+    .first-article {
+      width: 50%
+    }
+
     .main-paragraph:hover {
+      font-size: 2rem;
       background: DarkOrchid
     }
 
+    .main-paragraph {
+      width: 33%
+    }
+    img {
+      border-radius: 50%;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      border: 30px double orange;
+    }
+
+    .image {
+
+    }
     a:hover {
       background-color: AntiqueWhite;
     }
@@ -35,9 +60,11 @@
 
 <body>
   <h1>Website Title Text</h1>
+  <article class="first-article">
+    <p class="main-paragraph">Dummy text</p>
 
-  <p class="main-paragraph">Dummy text</p>
-
+  </article>
+<img src="./Portfolio-cover.png" alt="">
   <p calss="second-paragraph">second shorter paragraph</p>
 
   <a href="./portfolio.html">link to portfolio</a>
