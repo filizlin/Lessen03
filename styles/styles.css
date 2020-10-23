@@ -1,0 +1,54 @@
+/* CSS comments*/
+* {
+  border: 1px dashed yellow;
+}
+
+body {
+  font-size: 16px;
+  color: blue;
+  background-color: cornflowerblue
+}
+
+p {
+  color: DarkSeaGreen;
+  padding: 4rem;
+  text-align: justify;
+  border: 3px dashed red;
+  margin: 60px;
+}
+
+.first-article {
+  width: 50%
+}
+
+.main-paragraph:hover {
+  font-size: 2rem;
+  background: DarkOrchid
+}
+
+.main-paragraph {
+  width: 50%
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 30px double orange;
+}
+
+.image {}
+
+a:hover {
+  background-color: AntiqueWhite;
+}
+
+a[href="./portfolio.html"] {
+  color: red;
+}
+
+a[href="./about-me.html"] {
+  color: yellow;
+}
